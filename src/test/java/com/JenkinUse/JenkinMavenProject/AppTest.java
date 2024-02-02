@@ -1,8 +1,9 @@
 package com.JenkinUse.JenkinMavenProject;
+import org.testng.annotations.Test;
 
-public class NewClass {
-	
-	public static void main(String []args) {
+public class AppTest {
+	@Test
+	public  void main() {
 		
 		System.out.println("this is my first jenkins progrsm");
 	}
